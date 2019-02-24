@@ -109,7 +109,7 @@ app.delete('/:id', (req, res) => {
 });
 
 // isert some data
-app.get('/populate', (req, res) => {
+app.post('/populate', (req, res) => {
     // Primary Key of Todo Document
     const todoID = req.params.id;
     // Find Document By ID and delete document from record

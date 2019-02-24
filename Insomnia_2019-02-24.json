@@ -1,7 +1,7 @@
 {
 	"_type": "export",
 	"__export_format": 3,
-	"__export_date": "2019-02-23T23:35:28.054Z",
+	"__export_date": "2019-02-24T16:48:07.637Z",
 	"__export_source": "insomnia.desktop.app:v6.3.2",
 	"resources": [
 		{
@@ -39,7 +39,7 @@
 			"authentication": {},
 			"body": {
 				"mimeType": "application/json",
-				"text": "{\"test\":\"Chiara\"}"
+				"text": "{\n\t\"test\": \"Chiara\"\n}"
 			},
 			"created": 1550963976170,
 			"description": "",
@@ -53,7 +53,7 @@
 			"isPrivate": false,
 			"metaSortKey": -1550963976170,
 			"method": "POST",
-			"modified": 1550964705137,
+			"modified": 1550966201512,
 			"name": "New",
 			"parameters": [],
 			"parentId": "wrk_5f3409e79a2d41dc96532339ddb7a499",
@@ -165,6 +165,29 @@
 			"settingSendCookies": true,
 			"settingStoreCookies": true,
 			"url": "http://localhost:{{port}}/5c71d5c266dec40010b661e2",
+			"_type": "request"
+		},
+		{
+			"_id": "req_9d773898347141169e908b28c03ce4f6",
+			"authentication": {},
+			"body": {},
+			"created": 1551026767045,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1550964077115.5,
+			"method": "POST",
+			"modified": 1551026846131,
+			"name": "Populate",
+			"parameters": [],
+			"parentId": "wrk_5f3409e79a2d41dc96532339ddb7a499",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "http://localhost:{{port}}/populate",
 			"_type": "request"
 		},
 		{
