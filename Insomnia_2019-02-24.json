@@ -1,7 +1,7 @@
 {
 	"_type": "export",
 	"__export_format": 3,
-	"__export_date": "2019-02-24T16:48:07.637Z",
+	"__export_date": "2019-02-24T18:06:55.616Z",
 	"__export_source": "insomnia.desktop.app:v6.3.2",
 	"resources": [
 		{
@@ -39,7 +39,7 @@
 			"authentication": {},
 			"body": {
 				"mimeType": "application/json",
-				"text": "{\n\t\"test\": \"Chiara\"\n}"
+				"text": "{\n\t\"test\": \"prova\"\n}"
 			},
 			"created": 1550963976170,
 			"description": "",
@@ -53,7 +53,7 @@
 			"isPrivate": false,
 			"metaSortKey": -1550963976170,
 			"method": "POST",
-			"modified": 1550966201512,
+			"modified": 1551031583381,
 			"name": "New",
 			"parameters": [],
 			"parentId": "wrk_5f3409e79a2d41dc96532339ddb7a499",
@@ -63,7 +63,7 @@
 			"settingRebuildPath": true,
 			"settingSendCookies": true,
 			"settingStoreCookies": true,
-			"url": "http://localhost:{{port}}",
+			"url": "http://localhost:{{port}}/api/",
 			"_type": "request"
 		},
 		{
@@ -76,7 +76,7 @@
 			"isPrivate": false,
 			"metaSortKey": -1550964178061,
 			"method": "GET",
-			"modified": 1550964198458,
+			"modified": 1551031510298,
 			"name": "Get All",
 			"parameters": [],
 			"parentId": "wrk_5f3409e79a2d41dc96532339ddb7a499",
@@ -86,7 +86,7 @@
 			"settingRebuildPath": true,
 			"settingSendCookies": true,
 			"settingStoreCookies": true,
-			"url": "http://localhost:{{port}}/getAll",
+			"url": "http://localhost:{{port}}/api/getAll",
 			"_type": "request"
 		},
 		{
@@ -99,7 +99,7 @@
 			"isPrivate": false,
 			"metaSortKey": -1550964216805,
 			"method": "GET",
-			"modified": 1550964683974,
+			"modified": 1551031533016,
 			"name": "Get One",
 			"parameters": [],
 			"parentId": "wrk_5f3409e79a2d41dc96532339ddb7a499",
@@ -109,7 +109,7 @@
 			"settingRebuildPath": true,
 			"settingSendCookies": true,
 			"settingStoreCookies": true,
-			"url": "http://localhost:{{port}}/5c71d7c06ee4770010e79f2a",
+			"url": "http://localhost:{{port}}/api/5c72dc72e89499001080ca49",
 			"_type": "request"
 		},
 		{
@@ -131,7 +131,7 @@
 			"isPrivate": false,
 			"metaSortKey": -1550964473269,
 			"method": "PUT",
-			"modified": 1550964498004,
+			"modified": 1551031538956,
 			"name": "Update",
 			"parameters": [],
 			"parentId": "wrk_5f3409e79a2d41dc96532339ddb7a499",
@@ -141,7 +141,7 @@
 			"settingRebuildPath": true,
 			"settingSendCookies": true,
 			"settingStoreCookies": true,
-			"url": "http://localhost:{{port}}/5c71d5c266dec40010b661e2",
+			"url": "http://localhost:{{port}}/api/5c71d5c266dec40010b661e2",
 			"_type": "request"
 		},
 		{
@@ -154,7 +154,7 @@
 			"isPrivate": false,
 			"metaSortKey": -1550964516650,
 			"method": "DELETE",
-			"modified": 1550964520141,
+			"modified": 1551031556550,
 			"name": "Delete",
 			"parameters": [],
 			"parentId": "wrk_5f3409e79a2d41dc96532339ddb7a499",
@@ -164,7 +164,7 @@
 			"settingRebuildPath": true,
 			"settingSendCookies": true,
 			"settingStoreCookies": true,
-			"url": "http://localhost:{{port}}/5c71d5c266dec40010b661e2",
+			"url": "http://localhost:{{port}}/api/5c71d5c266dec40010b661e2",
 			"_type": "request"
 		},
 		{
@@ -177,7 +177,7 @@
 			"isPrivate": false,
 			"metaSortKey": -1550964077115.5,
 			"method": "POST",
-			"modified": 1551026846131,
+			"modified": 1551031567521,
 			"name": "Populate",
 			"parameters": [],
 			"parentId": "wrk_5f3409e79a2d41dc96532339ddb7a499",
@@ -187,7 +187,7 @@
 			"settingRebuildPath": true,
 			"settingSendCookies": true,
 			"settingStoreCookies": true,
-			"url": "http://localhost:{{port}}/populate",
+			"url": "http://localhost:{{port}}/api/populate",
 			"_type": "request"
 		},
 		{
